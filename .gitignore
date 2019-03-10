@@ -24,3 +24,6 @@ hs_err_pid*
 
 [Bb]in
 [Dd]ebug*/
+.settings
+*.project
+*.classpath
