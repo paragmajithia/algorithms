@@ -1,0 +1,44 @@
+Ball count (100 Marks)
+Varun is playing a very interesting game. He has some N different types of boxes.  
+All boxes may have different number of balls (S1, S2, ......, Sn).  
+
+Varun choose two random numbers F and K. K should be less than N. The game is that Varun wants to choose any K boxes out of N boxes such that total number of balls in these K selected boxes should be some multiple of F.  
+
+At the same time, Varun wants that sum of the balls of the selected boxes should be minimum possible.
+
+
+
+Input Format
+The first line of input consist of the number of boxes, N.
+Next N lines consist of the number of balls in the respective box.
+Next two lines consist of the value of F and K respectively. 
+
+
+Constraints
+0<=N<=1000 
+
+Output Format
+Print the minimum possible total number of balls such that the condition(s) explained in the problem statement is/are satisfied. Output should be -1 if it is not possible or Invalid input. 
+
+Sample TestCase 1
+Input
+5
+1
+2
+3
+4
+5
+5
+3
+Output
+10
+
+For above example, N is 5 ( boxes)  
+
+Lets say K is 3( Varun has to choose any 3 boxes)  
+
+Lets say F is 5( sum of balls in 3 selected boxes should be multiple of 5) 
+
+Varun can choose II, III and V boxes which would give the total sum of 10 which is multiple of F i.e. 5. And 10 is the minimum possible balls possible in the above case. 
+
+So you have to only answer the minimum possible balls (sum of the balls in the selected boxes) but the conditions given above should be satisfied.
