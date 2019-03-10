@@ -1,16 +1,30 @@
-### Permutation and combinations:
-http://www.geeksforgeeks.org/combinations-with-repetitions/
-http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/
+Graph algorithms
+====================
+-- BFS & DFS  
+-- Connectivity  
+Example: [Articulation points] (Cut vertices in graph)(https://www.hackerearth.com/practice/notes/nj/)
 
-### Backtracking
+Permutation and combinations:  
+==============================
+[Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
+
+Backtracking
+============================
 Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate c ("backtracks") as soon as it determines that c cannot possibly be completed to a valid solution.[1][2]
 
-Example: -- n queens problem (Queens should not attack each other in n*n chess board)
--- Loop through rows (RECURSION via row number,in each loop check if queen can be placed without getting attacked horizaontally or diagonally. Mod(row-col) == Mod(tobeplacedRow-tobeplacedcolum) --to check diagonal attack
+Example: 
+-- n queens problem (Queens should not attack each other in n*n chess board)
+
+```
+Loop through rows (RECURSION via row number,
+in each loop check if queen can be placed without getting attacked horizaontally or diagonally. Mod(row-col) == Mod(tobeplacedRow-tobeplacedcolum) 
+to check diagonal attack
 https://www.youtube.com/watch?v=p4_QnaTIxkQ 
+```
 
 ### Dynamic programming
 -- dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
+Example: [Subset sum problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
 
 --------------------------------------------------
 --------------------------------------------------
