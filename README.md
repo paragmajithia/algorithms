@@ -2,10 +2,12 @@ Graph algorithms
 ====================
 -- BFS & DFS  
 -- Connectivity  
-Example: [Articulation points] (Cut vertices in graph)(https://www.hackerearth.com/practice/notes/nj/)
+Examples:  
+[Articulation points / Cut vertices in graph](https://www.hackerearth.com/practice/notes/nj/)
 
 Permutation and combinations:  
 ==============================
+Examples:  
 [Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
 
 Backtracking
