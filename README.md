@@ -24,12 +24,12 @@ to check diagonal attack
 https://www.youtube.com/watch?v=p4_QnaTIxkQ 
 ```
 
-### Dynamic programming
--- dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
+Dynamic programming
+========================  
+Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
 Example: [Subset sum problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
 
---------------------------------------------------
---------------------------------------------------
+Example:  
 Number of coins problem
 https://www.youtube.com/watch?v=GafjS0FfAC0
 
@@ -159,24 +159,26 @@ Minimum Platforms needed on railway station = Maximum platforms
                                               needed at any time 
                                            = 3 
 
-======================================
-Divide & Conquer (Important)
 
-Closest Pair of Points | O(nlogn) Implementation
+Divide & Conquer (Important)
+=============================  
+
+-- Closest Pair of Points | O(nlogn) Implementation
 http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
 
-======================
-(Important - Matrix info)
-Longest Palindrom --- comparsion of recursive and dynamic programming implementation (matrix)
+Matrix info
+==================
+-- Longest Palindrom --- comparsion of recursive and dynamic programming implementation (matrix)
 http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
 http://www.geeksforgeeks.org/?p=15553
 							
-(Similar) Partition problem	(matrix)						
+-- (Similar) Partition problem	(matrix)						
 http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
-						
-							
-===========================
+													
 Job sequencing problem:
+=============================
+
+```
 Input: Four Jobs with following deadlines and profits
   JobID    Deadline      Profit
     a        4            20   
@@ -204,10 +206,15 @@ Using Disjoint Set: http://www.geeksforgeeks.org/job-sequencing-using-disjoint-s
 	3) We create m+1 individual sets to start. {int parent[] = new int[m + 1];}. Every node is a parent of itself initially {parent[i] = i;}
 	4) Iterate through all jobs. Find the maximum available free slot "availableFreeSlot" for this job. 
 		a. Get "availableFreeSlot" by calling recursive fn by passing deadline. if (s == parent[s]) else find parent[s] (recursive)
-		b. if "availableFreeSlot" > 0 then slot available. update the parent of avaialble slot id by finding availalbe slot of (availalbelSlot - 1). 
-===========================	 
+		b. if "availableFreeSlot" > 0 then slot available. update the parent of avaialble slot id by finding availalbe slot of (availalbelSlot - 1). 	 
+
+```
+
 Polygon property (Check if point is within polygon)
+==================================================  
 OR check the orientation of triplet point (colinear, clockwise, anticlocck wise)
+
+```
 {
 	Slope of line segment (p1, p2): σ = (y2 - y1)/(x2 - x1)
 	Slope of line segment (p2, p3): τ = (y3 - y2)/(x3 - x2)
@@ -227,3 +234,5 @@ OR check the orientation of triplet point (colinear, clockwise, anticlocck wise)
 }
 http://www.geeksforgeeks.org/orientation-3-ordered-points/
 http://www.geeksforgeeks.org/how-to-check-if-a-given-point-lies-inside-a-polygon/ 
+
+```
