@@ -1,13 +1,17 @@
-Graph algorithms
-====================
--- BFS & DFS  
--- Connectivity  
-Examples:  
+Preparation Links:  
+=====================
+* Codecheck certification:  
+https://www.codechef.com/certification/data-structures-and-algorithms/prepare
+* Graph algorithms: (BFS & DFS, Connectivity)  
 [Articulation points / Cut vertices in graph](https://www.hackerearth.com/practice/notes/nj/)
-
-Permutation and combinations:  
-==============================
-Examples:  
+* Divide & Conquer (Example: Closest Pair of Points | O(nlogn) Implementation)
+http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
+* Matrix Usage: Ex: Longest Palindrome & comparsion of recursive and dynamic programming implementation (matrix)  
+http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
+http://www.geeksforgeeks.org/?p=15553
+* Matrix Usage:  Partition problem  
+http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
+* Permutation and combinations:   
 [Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
 
 Backtracking
@@ -157,20 +161,7 @@ Minimum Platforms needed on railway station = Maximum platforms
                                            = 3 
 ```
 
-Divide & Conquer (Important)
-=============================  
 
--- Closest Pair of Points | O(nlogn) Implementation
-http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
-
-Matrix info
-==================
--- Longest Palindrom --- comparsion of recursive and dynamic programming implementation (matrix)
-http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
-http://www.geeksforgeeks.org/?p=15553
-							
--- (Similar) Partition problem	(matrix)						
-http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
 													
 Job sequencing problem:
 =============================
