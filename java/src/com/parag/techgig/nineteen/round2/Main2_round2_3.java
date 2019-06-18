@@ -1,4 +1,4 @@
-package com.parag.techgig.round2;
+package com.parag.techgig.nineteen.round2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

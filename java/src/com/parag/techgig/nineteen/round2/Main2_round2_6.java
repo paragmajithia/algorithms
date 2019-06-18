@@ -1,4 +1,4 @@
-package com.parag.techgig.round2;
+package com.parag.techgig.nineteen.round2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Main2_round2_5 {
+public class Main2_round2_6 {
 
 	public static void main(String[] args) throws IOException {
 
@@ -34,18 +34,23 @@ public class Main2_round2_5 {
 
 		public boolean isSolved = true;
 
-		public TestCase(int phase, int states, String phaseCond, String[] stateCond) {
+		public TestCase(int phase, int states, String phaseCond, String stateCond) {
 			this.phases = phase;
 			this.states = states;
 			this.phaseCond = phaseCond;
 
-			// Store state condition
-			int stateSum = 0;
-			for (int i = 0; i < this.states; i++) {
-				int stateNum = Integer.parseInt(stateCond[i]);
-				if (stateNum > 0) {
-					stateList.add(stateNum);
-					stateSum = stateSum + stateNum;
+			// Store state list
+			int startPos = 0;
+			while (startPos != -1 && startPos <= stateCond.length()) {
+				int endPos = stateCond.indexOf(" ", startPos);
+				if (endPos < 0) {
+					endPos = stateCond.length();
+				}
+				Integer stateCondInt = Integer.parseInt(stateCond.substring(startPos, endPos));
+				startPos = endPos + 1;
+				
+				if (stateCondInt > 0) {
+					stateList.add(stateCondInt);
 				}
 			}
 		}
@@ -113,9 +118,9 @@ public class Main2_round2_5 {
 
 			// Read phases condition
 			String arr2 = reader.readLine();
-			String[] arr3 = reader.readLine().split(" ");
+			String arr3 = reader.readLine();
 
-			testcases.add(new TestCase(phases, states, arr2.trim(), arr3));
+			testcases.add(new TestCase(phases, states, arr2.trim(), arr3.trim()));
 		}
 	}
 

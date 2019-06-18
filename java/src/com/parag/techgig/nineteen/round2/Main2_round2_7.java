@@ -1,15 +1,15 @@
-package com.parag.techgig.round2;
+package com.parag.techgig.nineteen.round2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.ListIterator;
 
-public class Main2_round2_6 {
+public class Main2_round2_7 {
 
 	public static void main(String[] args) throws IOException {
 
@@ -30,7 +30,7 @@ public class Main2_round2_6 {
 		public int states;
 
 		private String phaseCond;
-		private Queue<Integer> stateList = new PriorityQueue<Integer>(Collections.reverseOrder());
+		private List<Integer> stateList = new LinkedList<Integer>();
 
 		public boolean isSolved = true;
 
@@ -53,6 +53,8 @@ public class Main2_round2_6 {
 					stateList.add(stateCondInt);
 				}
 			}
+			
+			Collections.sort(stateList, Collections.reverseOrder());
 		}
 
 		public void printOutput() {
@@ -85,16 +87,34 @@ public class Main2_round2_6 {
 					break;
 				}
 
-				// Remove the states from queue and reinsert after decrementing it
-				List<Integer> newStateList = new ArrayList<Integer>();
+				// Remove the states from queue if its no longer available
+				ListIterator<Integer> iterator = stateList.listIterator();
+				int lastCount = 0;
 				for (int i = 0; i < phaseCond; i++) {
-					int newCond = stateList.remove() - 1;
-					if (newCond > 0) {
-						newStateList.add(newCond);
+					int newCond = iterator.next() - 1;
+					iterator.set(newCond);
+					if (newCond <= 0) {
+						iterator.remove();
+					} else {
+						lastCount++;
 					}
 				}
-				stateList.addAll(newStateList);
-
+				
+				// Resort the sublist if required
+				int startcount = lastCount-1;
+				if (lastCount < stateList.size() && stateList.get(lastCount) > stateList.get(startcount)) {
+					int updatedNum = stateList.get(startcount);
+					int otherNum = stateList.get(lastCount);
+					
+					// Get start and end pos for sort					
+					while ((lastCount+1) < stateList.size() && stateList.get(lastCount+1) == otherNum) {
+						lastCount++;
+					}
+					while ((startcount-1) >=0 && stateList.get(startcount-1) == updatedNum) {
+						startcount--;
+					}
+					Collections.sort(stateList.subList(startcount, (lastCount+1)), Collections.reverseOrder());
+				}
 			}
 
 			// If state condition is not satisfied then break

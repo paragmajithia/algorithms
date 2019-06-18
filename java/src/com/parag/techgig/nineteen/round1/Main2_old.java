@@ -1,4 +1,4 @@
-package com.parag.techgig.round1;
+package com.parag.techgig.nineteen.round1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main2 {
+public class Main2_old {
 	public static void main(String[] args) throws IOException {
 		readinput();
 		processHomes();
@@ -34,38 +34,43 @@ public class Main2 {
 			// List with previous excluded
 			int exPrevious = Integer.MIN_VALUE;
 			List<Integer> excludePrevList = new ArrayList<Integer>();
-			
-			int exNew;
-			List<Integer> exNewList, incNewList;
+			List<Integer> temp;
+			int temp2;
 
 			for (int count = 1; count < tickets.size(); count++) {
 
 				// Get ticket number
 				int ticket = tickets.get(count);
 
-				// Excluding the current element 
-				// Max of previous element exclusion & inclusion
-				if (inPrevious > exPrevious) {
-					exNew = inPrevious;
-					exNewList = new ArrayList<Integer>(includePrevList);
-				} else {
-					exNew = exPrevious;
-					exNewList = new ArrayList<Integer>(excludePrevList);
+				// Scenario -- 0 ticket found Or ticket not increasing sum
+				if (ticket == 0 || ((inPrevious + ticket) <= inPrevious) && inPrevious > 0) {
+					// Reset to max value
+					if (inPrevious > exPrevious) {
+						exPrevious = inPrevious;
+						excludePrevList = new ArrayList<Integer>(includePrevList);
+					}
+					continue;
 				}
 
-				// Including current ticket
-				if (exPrevious < 0 && ticket > exPrevious) {
+				// Exchange the list
+				temp = includePrevList;
+				includePrevList = excludePrevList;
+				excludePrevList = temp;
+
+				// Store new exclude & include
+				temp2 = inPrevious;
+				inPrevious = exPrevious;
+				exPrevious = temp2;
+
+				// Scenario -- including current ticket
+				if (inPrevious < 0 && ticket > inPrevious) {
 					inPrevious = ticket;
 					includePrevList.clear();
 					includePrevList.add(ticket);
-				} else if ((exPrevious + ticket) > exPrevious) {
-					inPrevious = exPrevious + ticket;
-					incNewList = new ArrayList<Integer>(excludePrevList);
-					incNewList.add(ticket);
-					includePrevList = incNewList;
+				} else if ((inPrevious + ticket) > inPrevious) {
+					inPrevious = inPrevious + ticket;
+					includePrevList.add(ticket);
 				}
-				exPrevious = exNew;
-				excludePrevList = exNewList;
 			}
 
 			// Print output
