@@ -15,7 +15,7 @@ Backtracking
 Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate c ("backtracks") as soon as it determines that c cannot possibly be completed to a valid solution.[1][2]
 
 Example: 
--- n queens problem (Queens should not attack each other in n*n chess board)
+* n queens problem (Queens should not attack each other in n*n chess board)
 
 ```
 Loop through rows (RECURSION via row number,
@@ -29,7 +29,7 @@ Dynamic programming
 Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
 Example: [Subset sum problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
 
--- Example: Number of coins problem
+* Example: Number of coins problem  
 https://www.youtube.com/watch?v=GafjS0FfAC0
 
 ```
@@ -37,14 +37,14 @@ Given coins of value v1,v2,..vn..find min no of coins to get sum P
 C(P) = min(C(P-v1), c(P-v2).. c(P-vn) + 1
 ```
 
--- Example: Find longest increasing sub sequence (ex: array A --(2,7,3,4,9,8,12) has longest subsequence as 2,3,4,9,12)
+* Example: Find longest increasing sub sequence (ex: array A --(2,7,3,4,9,8,12) has longest subsequence as 2,3,4,9,12)  
 ```
 start from i=0
 LS(i) = 1 + max(LS(j)) where j < n && A[i] > A[j]
 	  = 1 (if no such j found)
 ```	  
--- Example: 
-http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/
+* Example:  
+http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  
  Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum.
 Examples: set[] = {3, 34, 4, 12, 5, 2}, sum = 9
 Output:  True  //There is a subset (4, 5) with sum 9.
@@ -54,7 +54,7 @@ Recursive formula:
 isSubsetSum(set, n, sum) = isSubsetSum(set, n-1, sum) || 
                            isSubsetSum(set, n-1, sum-set[n-1])
 ```					   
--- Example: 0/1 Knapsack problem where you either select the item or drop it. 
+* Example: 0/1 Knapsack problem where you either select the item or drop it.   
 Given list of items with weight and value, you have to select the number of items such that you end up with maximum value but total weight as less than given value. (If you were allowed to split, you could have sorted items based on ratio val/wt in descending order and pick the items accordingly)
 0/1 Knapsack problem:
 items 
@@ -64,7 +64,7 @@ wt | val
 4 | 5
 5 | 7
 		
---- Soln: Create matrix T with columns as weight and rows as items starting from minimum weight. Start from min weight
+** Soln: Create matrix T with columns as weight and rows as items starting from minimum weight. Start from min weight
 https://www.youtube.com/watch?v=8LusJS5-AGo
 
 ```
@@ -81,15 +81,15 @@ if (j < wt[i]) {
 					--> T[i-1][j]	
 }		
 ```
---- Above works only for weights which are int. For floats check below:
+** Above works only for weights which are int. For floats check below:  
 http://www.geeksforgeeks.org/branch-and-bound-set-1-introduction-with-01-knapsack/		
 http://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/
 
---- Implementation for non fraction:
+** Implementation for non fraction:  
 http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/
 http://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/	
 
--- Example: Min cost to reach destination. The distance from i to j is given in cost[i][j]
+* Example: Min cost to reach destination. The distance from i to j is given in cost[i][j]
 http://www.geeksforgeeks.org/find-the-minimum-cost-to-reach-a-destination-where-every-station-is-connected-in-one-direction/
 
 ```
@@ -126,7 +126,7 @@ static int minCost(int cost[][])
     }
 ```	
 
--- Example: Min number of platforms required for railway/bus station-is-connected-in-one-direction/
+* Example: Min number of platforms required for railway/bus station-is-connected-in-one-direction/
 sort all events of arrival and departure. Keep counter which tracks arrival and departure. The max value of counter is same as no of station required
 http://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
 
