@@ -3,31 +3,23 @@ Preparation Links:
 * Codecheck certification:  
 https://www.codechef.com/certification/data-structures-and-algorithms/prepare
 * Graph algorithms: (BFS & DFS, Connectivity)  
-[Articulation points / Cut vertices in graph](https://www.hackerearth.com/practice/notes/nj/)
-* Divide & Conquer (Example: Closest Pair of Points | O(nlogn) Implementation)
-http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
-* Matrix Usage: Ex: Longest Palindrome & comparsion of recursive and dynamic programming implementation (matrix)  
-http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
-http://www.geeksforgeeks.org/?p=15553
-* Matrix Usage:  Partition problem  
-http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
+	* [Articulation points / Cut vertices in graph](https://www.hackerearth.com/practice/notes/nj/)
+* Divide & Conquer 
+	* Example: Closest Pair of Points | O(nlogn) Implementation
+	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
+* Matrix Usage: 
+	* Example: Longest Palindrome & comparsion of recursive and dynamic programming implementation (matrix)  
+	http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
+	http://www.geeksforgeeks.org/?p=15553
+	* Partition problem  
+	http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
 * Permutation and combinations:   
-[Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
-
-Backtracking
-============================
-Backtracking is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate c ("backtracks") as soon as it determines that c cannot possibly be completed to a valid solution.[1][2]
-
-Example: 
-* n queens problem (Queens should not attack each other in n*n chess board)
-
-```
-Loop through rows (RECURSION via row number,
-in each loop check if queen can be placed without getting attacked horizaontally or diagonally. Mod(row-col) == Mod(tobeplacedRow-tobeplacedcolum) 
-to check diagonal attack
-https://www.youtube.com/watch?v=p4_QnaTIxkQ 
-```
-
+	* [Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
+* Backtracking
+	* Example: n queens problem 
+	https://www.youtube.com/watch?v=p4_QnaTIxkQ 
+	https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
+	
 Dynamic programming
 ========================  
 Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
