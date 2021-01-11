@@ -87,7 +87,7 @@ public class CycleShift {
         for (int index = 0; index < count; index++){
             if (index == 0) cycleShifts = cycleShifts + repPos.get(0);
             else {
-                cycleShifts = cycleShifts + (repPos.get(i) - repPos.get(i-1));
+                cycleShifts = cycleShifts + (repPos.get(index) - repPos.get(index-1));
             }
         }
         shift.repeatedShift = cycleShifts;
