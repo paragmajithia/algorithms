@@ -13,13 +13,14 @@ public class CycleShift {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     // instance members for input
-    int strSize, kthTime;
+    int strSize;
+    long kthTime;
     String input;
     // Calculated values
     String maxString;
     int[] prefixTable;
     int firstCycleShift;
-    int repeatedShift;
+    long repeatedShift;
 
     public static void main(String[] args) throws IOException {
 
@@ -49,7 +50,7 @@ public class CycleShift {
     }
 
     // Main logic
-    private static int getTotalCycleShift(CycleShift shift) {
+    private static long getTotalCycleShift(CycleShift shift) {
         findMaxString(shift);
         shift.prefixTable = getPrefixTable(shift.maxString);
         getRepeatedString(shift);
@@ -81,9 +82,9 @@ public class CycleShift {
             }
         }
 
-        int time = shift.kthTime - 1;
-        int cycleShifts = (time / repPos.size()) * shift.maxString.length();
-        int count = time % (repPos.size());
+        long time = shift.kthTime - 1;
+        long cycleShifts = (time / repPos.size()) * shift.maxString.length();
+        long count = time % (repPos.size());
         for (int index = 0; index < count; index++){
             if (index == 0) cycleShifts = cycleShifts + repPos.get(0);
             else {
