@@ -7,8 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
 
+/**
+ * All test completes witin 1 sec from hacker earth (full score 30)
+ */
 public class CycleShift {
 
+    // Statis members
     static int noTestcases;
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -22,6 +26,21 @@ public class CycleShift {
     int firstCycleShift;
     long repeatedShift;
 
+    /**
+     * The solution is divided into 2 steps
+     * 1. Find the max length of binary string and the cycles to arrive at max string
+     *      a. Note -- this is done efficiently by first concatenating the same intput string (ex: ab becomes abab)
+     *      b. Then only compare strings starting with 01 (keep default max as input string)
+     *      <Dont join substring's in loop in brutforce comparison ever at increases memory and execution time)
+     *  2. Find the cycles required to get max string kth time
+     *      a. For this just find the number of times the max string repeats within the input string.
+     *      b. the number of cycles can then by calculated mathematically
+     *      c. use kmp algo (prefix table) to search for max string within the input string
+     *      (above will reduce number of string comparison. dont compare string at each start position)
+     *
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
 
         // Read number of test cases
@@ -51,12 +70,23 @@ public class CycleShift {
 
     // Main logic
     private static long getTotalCycleShift(CycleShift shift) {
+
+        // STEP 1 -- find the count for first cycle shift and max string
         findMaxString(shift);
+
+        // STEP 2 -- Get prefix table for the pattern (KMP algo)
         shift.prefixTable = getPrefixTable(shift.maxString);
+
+        // STEP 2 -- Get the count of cycles required to get max string kth time
         getRepeatedString(shift);
+        // System.out.println(("final count of cycles computation complete in ms: " + (end - start) / 1000000L));
+
         return (shift.firstCycleShift + shift.repeatedShift);
     }
 
+    /*
+    Finds position and number of time given string is getting repeated in input string (concatenated)
+     */
     private static void getRepeatedString(CycleShift shift) {
         String maxTwice = String.format("%s%s", shift.maxString, shift.maxString);
         List<Integer> repPos = new ArrayList<>();
@@ -108,7 +138,7 @@ public class CycleShift {
         // Find next 0 as max number would always start with 1
         for (int i = 1; i < shift.strSize; i++) {            // find next sequence of 01
 
-            if (shift.maxString.compareTo(inputTwice.substring(i, i+shift.strSize)) < 0) {
+            if (inputTwice.charAt(i-1) == '0' && inputTwice.charAt(i) == '1' && shift.maxString.compareTo(inputTwice.substring(i, i+shift.strSize)) < 0) {
                 shift.maxString = inputTwice.substring(i, i+shift.strSize);
                 shift.firstCycleShift = i;
             }
