@@ -1,6 +1,5 @@
-package com.facebook.queue.queue.queueremovals;
+package com.facebook.queue.queueremovals;
 
-import java.io.*;
 import java.util.*;
 // Add any extra import statements you may need here
 
