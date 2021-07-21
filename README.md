@@ -28,6 +28,11 @@ https://cp-algorithms.com/
 	https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
 	* Trie / Suffix tree / Suffix array
 	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/
+	
+* Segment Trees:  
+	* Sum of given range
+	https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+	
 * Dynamic programming (a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions)
 	* Example: [Subset sum problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
 	* Example: Number of coins problem
