@@ -33,6 +33,10 @@ https://cp-algorithms.com/
 	* Sum of given range
 	https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
 	
+* Disjoint sets:
+	* Disjoint set union (Union find data structure)
+	https://cp-algorithms.com/data_structures/disjoint_set_union.html#toc-tgt-5
+	
 * Dynamic programming (a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions)
 	* Example: [Subset sum problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)
 	* Example: Number of coins problem
