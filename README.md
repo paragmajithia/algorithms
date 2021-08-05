@@ -2,13 +2,16 @@ Preparation Links:
 =====================
 * Codecheck certification:  
 https://www.codechef.com/certification/data-structures-and-algorithms/prepare  
-https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/  
+
 
 * Competitive programming algos:
 https://cp-algorithms.com/
 
 * Graph algorithms: (BFS & DFS, Connectivity)  
-	* [Articulation points / Cut vertices in graph](https://www.hackerearth.com/practice/notes/nj/)
+	* [Articulation points / Cut vertices in graph]  
+	(https://www.hackerearth.com/practice/notes/nj/)  
+	https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/  
+	* Max flow
 * Divide & Conquer 
 	* Example: Closest Pair of Points | O(nlogn) Implementation
 	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
