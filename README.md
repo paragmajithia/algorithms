@@ -27,7 +27,8 @@ https://cp-algorithms.com/
 	* KMP algorithm for pattern searching (Prefix table)
 	https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
 	* Trie / Suffix tree / Suffix array
-	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/
+	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/  
+	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
 	
 * Segment Trees:  
 	* Sum of given range
