@@ -1,13 +1,17 @@
 Preparation Links:  
 =====================
 * Codecheck certification:  
-https://www.codechef.com/certification/data-structures-and-algorithms/prepare
+https://www.codechef.com/certification/data-structures-and-algorithms/prepare  
+
 
 * Competitive programming algos:
 https://cp-algorithms.com/
 
 * Graph algorithms: (BFS & DFS, Connectivity)  
-	* [Articulation points / Cut vertices in graph](https://www.hackerearth.com/practice/notes/nj/)
+	* [Articulation points / Cut vertices in graph]  
+	(https://www.hackerearth.com/practice/notes/nj/)  
+	https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/  
+	* Max flow
 * Divide & Conquer 
 	* Example: Closest Pair of Points | O(nlogn) Implementation
 	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
@@ -17,8 +21,11 @@ https://cp-algorithms.com/
 	http://www.geeksforgeeks.org/?p=15553
 	* Partition problem  
 	http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
-* Permutation and combinations:   
+* Combinatorics: Permutation and combinations:   
 	* [Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
+	* [Combinations with repetitions example] (https://www.superprof.co.uk/resources/academic/maths/probability/combinatorics/combinations-with-repetition.html) 
+	* [Calculate combinations and permutation](https://sciencing.com/calculate-combinations-permutations-4466533.html)
+	* [Navigate grid using combinations and permutations](https://betterexplained.com/articles/navigate-a-grid-using-combinations-and-permutations/)
 * Backtracking
 	* Example: n queens problem 
 	https://www.youtube.com/watch?v=p4_QnaTIxkQ 
@@ -27,7 +34,8 @@ https://cp-algorithms.com/
 	* KMP algorithm for pattern searching (Prefix table)
 	https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
 	* Trie / Suffix tree / Suffix array
-	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/
+	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/  
+	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
 	
 * Segment Trees:  
 	* Sum of given range
