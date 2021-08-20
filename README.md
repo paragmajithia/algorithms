@@ -21,8 +21,11 @@ https://cp-algorithms.com/
 	http://www.geeksforgeeks.org/?p=15553
 	* Partition problem  
 	http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
-* Permutation and combinations:   
+* Combinatorics: Permutation and combinations:   
 	* [Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
+	* [Combinations with repetitions example] (https://www.superprof.co.uk/resources/academic/maths/probability/combinatorics/combinations-with-repetition.html) 
+	* [Calculate combinations and permutation](https://sciencing.com/calculate-combinations-permutations-4466533.html)
+	* [Navigate grid using combinations and permutations](https://betterexplained.com/articles/navigate-a-grid-using-combinations-and-permutations/)
 * Backtracking
 	* Example: n queens problem 
 	https://www.youtube.com/watch?v=p4_QnaTIxkQ 
