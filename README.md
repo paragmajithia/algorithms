@@ -38,6 +38,7 @@ https://cp-algorithms.com/
 	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
 	
 * Segment Trees:  
+	* https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/
 	* Sum of given range
 	https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
 	
