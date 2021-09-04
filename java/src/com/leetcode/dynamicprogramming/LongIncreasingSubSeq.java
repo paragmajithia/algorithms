@@ -1,4 +1,4 @@
-package com.leetcode.dp;
+package com.leetcode.dynamicprogramming;
 /*
 Given an integer array nums, return the number of longest increasing subsequences.
 
