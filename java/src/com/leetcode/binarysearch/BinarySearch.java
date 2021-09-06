@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.binarysearch;
 
 /*
 Given an array of integers nums which is sorted in ascending order, and an integer target,
