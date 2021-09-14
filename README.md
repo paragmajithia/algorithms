@@ -33,9 +33,11 @@ https://cp-algorithms.com/
 * String algortihms:  
 	* KMP algorithm for pattern searching (Prefix table)
 	https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
-	* Trie / Suffix tree / Suffix array
+	* Trie / Suffix tree / Suffix array  
 	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/  
 	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
+	https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/suffixtrees.pdf  
+	
 	
 * Segment Trees:  
 	* https://cp-algorithms.com/data_structures/segment_tree.html
