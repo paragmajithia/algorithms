@@ -31,12 +31,13 @@ https://cp-algorithms.com/
 	https://www.youtube.com/watch?v=p4_QnaTIxkQ 
 	https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
 * String algortihms:  
-	* KMP algorithm for pattern searching (Prefix table)
+	* KMP algorithm for pattern searching (Prefix table)  
 	https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
 	* Trie / Suffix tree / Suffix array  
 	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/  
 	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
 	https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/suffixtrees.pdf  
+	https://www.baeldung.com/java-pattern-matching-suffix-tree
 	
 	
 * Segment Trees:  
