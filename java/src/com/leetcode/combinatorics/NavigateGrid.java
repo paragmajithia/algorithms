@@ -48,7 +48,7 @@ public class NavigateGrid {
     // Ex for 3*4 matrix, 5 moves could be:
     // R1 D1 D2 R2 D3
     // Assume all right ==> R R R R R and you need to select 2 downs from it
-    // Hence its combination problems nCk (select k witout repetition from n elements)
+    // Hence its combination problems nCk (select k without repetition from n elements)
     // = (m+n-2)! / ( (n-1)! * ( ((m+n-2)-(n-1))! )
     // = (m+n-2)! / ( (n-1)! * (m-1)!)
     public int uniquePaths(int m, int n) {

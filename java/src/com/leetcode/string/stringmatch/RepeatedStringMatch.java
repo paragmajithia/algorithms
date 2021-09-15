@@ -1,4 +1,4 @@
-package com.leetcode.stringmatch;
+package com.leetcode.string.stringmatch;
 
 /**
  * 686. Repeated String Match

@@ -1,4 +1,4 @@
-package com.leetcode.substring;
+package com.leetcode.string.substring;
 
 /**
  * 30. Substring with Concatenation of All Words
