@@ -12,9 +12,9 @@ Preparation Links:
 	https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/  
 	* Max flow  
 	
-* Divide & Conquer 
-	* Example: Closest Pair of Points | O(nlogn) Implementation
-	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/	
+* Divide & Conquer  
+	* Example: Closest Pair of Points | O(nlogn) Implementation  
+	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/  
 	  
 * Matrix Usage: 
 	* Example: Longest Palindrome & comparsion of recursive and dynamic programming implementation (matrix)  
