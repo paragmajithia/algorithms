@@ -65,19 +65,17 @@ Preparation Links:
 	LS(i) = 1 + max(LS(j)) where j < n && A[i] > A[j]
 	  = 1 (if no such j found)
 	```	  
-	* Example:  
-	http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  
-		
-		* Soln: Create matrix T with columns as weight and rows as items starting from minimum weight. Start from min weight
-		https://www.youtube.com/watch?v=8LusJS5-AGo
+	
+	* Soln: Create matrix T with columns as weight and rows as items starting from minimum weight. Start from min weight
+	https://www.youtube.com/watch?v=8LusJS5-AGo
 
-		* Above works only for weights which are int. For floats check below:  
-		http://www.geeksforgeeks.org/branch-and-bound-set-1-introduction-with-01-knapsack/		
-		http://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/
+	* Above works only for weights which are int. For floats check below:  
+	http://www.geeksforgeeks.org/branch-and-bound-set-1-introduction-with-01-knapsack/		
+	http://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/
 
-		* Implementation for non fraction:  
-		http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/
-		http://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/	
+	* Implementation for non fraction:  
+	http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/
+	http://www.geeksforgeeks.org/branch-and-bound-set-2-implementation-of-01-knapsack/	
 
 	* Example: Min cost to reach destination. The distance from i to j is given in cost[i][j]
 	http://www.geeksforgeeks.org/find-the-minimum-cost-to-reach-a-destination-where-every-station-is-connected-in-one-direction/
@@ -92,8 +90,8 @@ Preparation Links:
 
 * Geometry Problems:
 	* Polygon property (Check if point is within polygon)  
-	http://www.geeksforgeeks.org/orientation-3-ordered-points/
-	http://www.geeksforgeeks.org/how-to-check-if-a-given-point-lies-inside-a-polygon/ 
+	http://www.geeksforgeeks.org/orientation-3-ordered-points/  
+	http://www.geeksforgeeks.org/how-to-check-if-a-given-point-lies-inside-a-polygon/  
 	* Co-ordinate geometry formulas  
 	https://byjus.com/maths/coordinate-geometry-formulas/
 
