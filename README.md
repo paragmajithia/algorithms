@@ -1,20 +1,21 @@
 Preparation Links:  
 =====================
-* Codecheck certification:  
-https://www.codechef.com/certification/data-structures-and-algorithms/prepare  
-
-
-* Competitive programming algos:
-https://cp-algorithms.com/
+* General Preparation links:
+	* Codecheck certification:  
+	https://www.codechef.com/certification/data-structures-and-algorithms/prepare  
+	* Competitive programming algos:  
+	https://cp-algorithms.com/  
 
 * Graph algorithms: (BFS & DFS, Connectivity)  
 	* [Articulation points / Cut vertices in graph]  
 	(https://www.hackerearth.com/practice/notes/nj/)  
 	https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/  
-	* Max flow
+	* Max flow  
+	
 * Divide & Conquer 
 	* Example: Closest Pair of Points | O(nlogn) Implementation
-	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/		
+	http://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/	
+	  
 * Matrix Usage: 
 	* Example: Longest Palindrome & comparsion of recursive and dynamic programming implementation (matrix)  
 	http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
@@ -23,9 +24,9 @@ https://cp-algorithms.com/
 	http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
 * Combinatorics: Permutation and combinations:   
 	* [Combination with repetiontions](http://www.geeksforgeeks.org/combinations-with-repetitions/)  
-	* [Combinations with repetitions example] (https://www.superprof.co.uk/resources/academic/maths/probability/combinatorics/combinations-with-repetition.html) 
-	* [Calculate combinations and permutation](https://sciencing.com/calculate-combinations-permutations-4466533.html)
-	* [Navigate grid using combinations and permutations](https://betterexplained.com/articles/navigate-a-grid-using-combinations-and-permutations/)
+	* [Combinations with repetitions example] (https://www.superprof.co.uk/resources/academic/maths/probability/combinatorics/combinations-with-repetition.html)  
+	* [Calculate combinations and permutation](https://sciencing.com/calculate-combinations-permutations-4466533.html)  
+	* [Navigate grid using combinations and permutations](https://betterexplained.com/articles/navigate-a-grid-using-combinations-and-permutations/)  
 * Backtracking
 	* Example: n queens problem 
 	https://www.youtube.com/watch?v=p4_QnaTIxkQ 
