@@ -39,6 +39,10 @@ Preparation Links:
 	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
 	https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/suffixtrees.pdf  
 	https://www.baeldung.com/java-pattern-matching-suffix-tree
+	* General String methods  
+	https://www.geeksforgeeks.org/base-conversion-in-java/  
+	https://www.codetab.org/post/java-unicode-basics/  
+	https://www.baeldung.com/java-number-of-digits-in-int  
 	
 	
 * Segment Trees:  
