@@ -6,6 +6,9 @@ Preparation Links:
 	* Competitive programming algos:  
 	https://cp-algorithms.com/  
 
+* Tree traversal  
+	* Morris Traversal [https://www.educative.io/edpresso/what-is-morris-traversal]  
+	
 * Graph algorithms: (BFS & DFS, Connectivity)  
 	* [Articulation points / Cut vertices in graph]  
 	(https://www.hackerearth.com/practice/notes/nj/)  
