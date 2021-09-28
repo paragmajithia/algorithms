@@ -10,6 +10,10 @@ Preparation Links:
 	* Morris Traversal [https://www.educative.io/edpresso/what-is-morris-traversal]  
 	
 * Graph algorithms: (BFS & DFS, Connectivity)  
+	* Djikstra's shortest path (for non negative edges)  
+	https://www.softwaretestinghelp.com/dijkstras-algorithm-in-java/
+	* Bellman Ford (for negative edges)  
+	https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/  
 	* [Articulation points / Cut vertices in graph]  
 	(https://www.hackerearth.com/practice/notes/nj/)  
 	https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/  
