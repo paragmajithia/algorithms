@@ -3,15 +3,12 @@ package com.leetcode.string.stringmatch;
 /**
  * 686. Repeated String Match
  * Medium
- *
- * 1143
- *
- * 863
- *
+
  * Add to List
  *
  * Share
- * Given two strings a and b, return the minimum number of times you should repeat string a so that string b is a substring of it. If it is impossible for b​​​​​​ to be a substring of a after repeating it, return -1.
+ * Given two strings a and b, return the minimum number of times you should repeat string a so that string b is a substring of it.
+ * If it is impossible for b​to be a substring of a after repeating it, return -1.
  *
  * Notice: string "abc" repeated 0 times is "",  repeated 1 time is "abc" and repeated 2 times is "abcabc".
  *

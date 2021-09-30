@@ -3,19 +3,14 @@ package com.leetcode.string.substring;
 /**
  * 30. Substring with Concatenation of All Words
  * Hard
- *
- * 1476
- *
- * 1617
- *
  * Add to List
  *
  * Share
- * You are given a string s and an array of strings words of the same length. Return all starting indices of substring(s) in s that is a concatenation of each word in words exactly once, in any order, and without any intervening characters.
+ * You are given a string s and an array of strings words of the same length.
+ * Return all starting indices of substring(s) in s that is a concatenation of each word in words exactly once, in any order,
+ * and without any intervening characters.
  *
  * You can return the answer in any order.
- *
- *
  *
  * Example 1:
  *
