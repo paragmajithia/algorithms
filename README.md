@@ -41,6 +41,9 @@ Preparation Links:
 * String algortihms:  
 	* KMP algorithm for pattern searching (Prefix table)  
 	https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
+	* RabinKarp  
+	https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
+	https://www.baeldung.com/cs/rabin-karp-algorithm
 	* Trie / Suffix tree / Suffix array  
 	https://www.hackerearth.com/practice/notes/trie-suffix-tree-suffix-array/  
 	https://www.geeksforgeeks.org/auto-complete-feature-using-trie/  
