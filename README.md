@@ -61,8 +61,9 @@ Preparation Links:
 * Segment Trees:  
 	* https://cp-algorithms.com/data_structures/segment_tree.html
 	* https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/
-	* Sum of given range
-	https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+	* Sum of given range  
+	https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/  
+	https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/
 	
 * Disjoint sets:
 	* Disjoint set union (Union find data structure)
