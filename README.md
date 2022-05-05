@@ -54,7 +54,10 @@ Preparation Links:
 	https://www.codetab.org/post/java-unicode-basics/  
 	https://www.baeldung.com/java-number-of-digits-in-int  
 	
-	
+* Interval Trees
+	* https://www.tutorialcup.com/interview/tree/interval-tree.htm
+	* https://iq.opengenus.org/interval-tree/
+
 * Segment Trees:  
 	* https://cp-algorithms.com/data_structures/segment_tree.html
 	* https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/
